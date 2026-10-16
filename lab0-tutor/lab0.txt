@@ -1,0 +1,1031 @@
+学号尾号为奇数的完成第一套和第三套试题，尾号为偶数的完成第二套和第四套试题
+第五套每位同学可以选做，不强求，交上来更好
+
+Software Security - Kevin Du - SEED Project - Syracuse University
+https://www.bilibili.com/video/BV1v4411S7mv
+
+Web Security - Kevin Du - SEED Project - Syracuse University
+https://www.bilibili.com/video/BV1a441117kb
+
+SEED实验的20年开源历程
+https://www.bilibili.com/video/BV1654y1775t/
+
+试题1.
+一、单选选择题（共几题：26 每小题目满分：1）
+1. Linux操作系统内核创始人是：
+  A. Bill Gates
+  B. Richard Stallman
+  C. Linus Torvalds
+  D. Dennis M Ritchie、Ken Thompson
+
+2. 以下哪种产品不是LINUX发行版：
+  A. MANDRAKE
+  B. REDHAT
+  C. BSD
+  D. DEBIAN
+
+3. 在linux中有关IDE设备命名编号正确的有：
+  A. sda 第一个 IDE 控制器，主设备
+  B. sdb 第二个 IDE 控制器，次设备
+  C. hdb 第二个 IDE 控制器，主设备
+  D. hda 第一个 IDE 控制器，主设备
+
+4. 要启动文本模式安装程序，使用以下引导命令：
+  A. linux rescue
+  B. linux text
+  C. linux dd
+  D. linux expert
+
+5. 查看磁盘空间占用应该使用下面那个命令：
+  A. dd
+  B. du
+  C. df
+  D. dp
+
+6. 关于"cd ~"命令，说法正确的是：
+  A. 切换到当前目录
+  B. 切换到根目录
+  C. 切换到/root目录
+  D. 切换到用户的home目录
+
+7. 关于"man"命令的作用是：
+  A. 手动执行指定的命令
+  B. 定时执行指定的命令
+  C. 查看系统中的命令列表
+  D. 查看命令的帮助信息
+
+8. 在"ps"的显示信息中，其中stat标记位显示为z,该显示表示该进程：
+  A. 正运行
+  B. 僵死
+  C. 睡眠
+  D. 停止
+
+9. 以下哪种不是shell中的通配符：
+  A. *
+  B. ?
+  C. #
+  D. []
+
+10. 哪种不是shell中的引号：
+  A. 正引号
+  B. 单引号
+  C. 双引号
+  D. 反引号
+
+11. SSH服务通常使用哪个服务端口号？
+  A. 20
+  B. 21
+  C. 22
+  D. 23
+  E. 24
+
+12. telnet服务通常使用哪个服务端口？
+  A. 20
+  B. 21
+  C. 22
+  D. 23
+  E. 24
+
+13. 下面关于passwd命令说法不正确的是：
+  A. 普通用户可以利用passwd命令修改自己的密码
+  B. 超级用户可以利用passwd命令修改自己和其他用户的密码
+  C. 普通用户不可以利用passwd命令修改其他用户的密码
+  D. 普通用户可以利用passwd命令修改自己和其他用户的密码
+
+14. 由于编译过程中会产生许多临时文件，所以在安装源代码发布软件包安装完成后，还要使用以下命令清除临时文件：
+  A. make tidy
+  B. make close
+  C. make clear
+  D. make clean
+
+15. 安装源代码发布软件包时，以下命令顺序正确的是：
+  A. ./configure;make;make install;make clean
+  B. ./configure;make install;make clean;make
+  C. make;make install;make clean;./configure
+  D. make install;make clean;make;./configure
+
+16. linux系统中存放加密用户帐号信息的文件是：
+  A. /etc/passwd
+  B. /etc/shadow
+  C. /etc/group
+  D. /etc/securetty
+
+17. 对于文件扩展名为tar.Z的源代码发布的软件安装包解压和解压缩，正确的tar命令参数是：
+  A. tar -Zxvf 文件名
+  B. tar -xvf 文件名
+  C. tar -zxvf 文件名
+  D. tar -jxvf 文件名
+
+18. 硬盘主引导扇区的位置在：
+  A. 0柱面、0磁头、0扇区
+  B. 0柱面、0磁头、1扇区
+  C. 0柱面、1磁头、0扇区
+  D. 0柱面、1磁头、1扇区
+
+19. 在GRUB配置文件中，chainloader (hd1,0)+1表示的是：
+  A. 装入第1个硬盘的第1个分区的第0个起始扇区的数据，然后把引导权交给它即可
+  B. 装入第1个硬盘的第1个分区的第1个起始扇区的数据，然后把引导权交给它即可
+  C. 装入第2个硬盘的第2个分区的第0个起始扇区的数据，然后把引导权交给它即可
+  D. 装入第2个硬盘的第1个分区的第1个起始扇区的数据，然后把引导权交给它即可
+
+20. 以下关于parted分区工具描述错误的是：
+  A. parted可以在DOS下运行
+  B. parted不能移动分区
+  C. parted不能复制分区
+  D. parted对分区的任何改变会立即被写到硬盘中
+
+21. 在du命令中，使用友好的方式显示信息的参数是：
+  A. -h
+  B. -f
+  C. -a
+  D. -t
+
+22. 在df命令中，显示文件系统的类型的参数是：
+  A. -T
+  B. -t
+  C. -h
+  D. -f
+
+23. ext2支持的最大容量可达到:
+  A. 4GB
+  B. 4TB
+  C. 16GB
+  D. 16TB
+
+24. 磁盘配额是：
+  A. 限制系统用户使用磁盘和存储文件的个数
+  B. 限制超级用户使用磁盘
+  C. 限制普通用户使用磁盘
+  D. 限制虚拟用户使用磁盘
+
+25. 要执行组配额，必须用下列哪个挂载选项挂载分区？
+    A. quota
+    B.grpquota
+    C. usrquota
+    D.groupq
+
+26. 红帽企业版Linux默认的桌面环境叫做什么？
+   A. LDESK
+   B.GNOME
+   C. explorer.exe
+   D.KDE
+
+
+二、多选选择题（共几题：7  每小题目满分：2）
+1. 以下哪些是LINUX的安装方式：
+  A. 光盘安装
+  B. 硬盘安装
+  C. nfs安装
+  D. http安装
+
+2 正则表达式 ^a匹配如下那些选项：
+  A. A．aa
+  B. B．ab
+  C. C．ac
+  D. D．ca
+
+3. 以下哪几种是vim的工作模式：
+  A. 命令模式
+  B. 删除模式
+  C. 编辑模式
+  D. 末行模式
+
+4. 以下哪些是LINUX的软件安装包方式：
+  A. setup安装
+  B. 二进制发布软件包
+  C. 源代码发布软件包
+  D. patch安装
+
+5. ls命令
+  A. -a 可显示当前目录内的所有文件
+  B. 与dir命令类似
+  C. -A 与 -a 功能相同，但显示的文件更多
+  D. -d 当遇到目录时列出目录本身而非目录内的文件
+
+6. 以下关于驱动程序安装的说法中哪些是正确的？
+  A. 在Linux中可以以可装载模块的方式使用驱动程序
+  B. 在Linux中还可以把驱动程序编译进Linux系统核心进行使用
+  C. Linux对硬件的支持是通过软件驱动来实现的
+  D. 同WINDOWS一样，LINUX会在安装过程中自动对计算机的大部分设备进行驱动程序的安装
+
+7. X Windows System的特点是：
+  A. 生产者有关性
+  B. 具可携性
+  C. 对彩色掌握的多样性
+  D. 对网路之间的操作透通性
+
+
+试题2.
+理论考试（试卷满分：40各单元内小题是否乱序：否）
+一、单选选择题（共几题：26 每小题目满分：1）
+1. 什么是交换空间：
+  A. 用于交换的内存空间
+  B. 比内存大的空间
+  C. 用于交换的磁盘空间
+  D. 比内存小的空间
+
+2. 格式化交换空间的命令是：
+  A. mkfs
+  B. mkswap
+  C. mke2fs
+  D. fdisk
+
+3. MBR的组成中，其中前446字节：
+  A. 存储主分区的信息
+  B. 存储逻辑分区的信息
+  C. 用于系统进行跳转，将CPU控制权交给某一个操作系统
+  D. 用于存储linux引导信息
+
+4. 使用“fdisk /mbr”命令卸载LINUX，以下说法正确的是：
+  A. 适用于所有操作系统
+  B. 适用于WIN 98
+  C. 适用于WIN XP
+  D. 适于于MAC OS
+
+5. 除文档名称外，还将文档类型、权限、拥有者、文档大小等信息详细列出的命令是：
+  A. ls -a
+  B. ls -F
+  C. ls -t
+  D. ls -l
+
+6. 关于"mkdir dirname"命令的作用是：
+  A. 创建由dirname命名的目录。
+  B. 创建由dirname命名的文本文件。
+  C. 删除由dirname命名的目录。
+  D. 删除由dirname命名的文本文件。
+
+7. 锁定特定账号，可以使用以下哪个命令：
+  A. useradd
+  B. passwd
+  C. chmod
+  D. userdel
+
+8. 为匹配以001结尾的行，我们可以使用如下的正则表达式：
+  A. ^001
+  B. 001$
+  C. *001
+  D. \001
+
+9. 在当前目录下执行一个shell文件，哪一种方法不正确：
+  A. sh file
+  B. ./ file
+  C. file
+  D. source file
+
+10. 改变bash的提示符实际上就是改变变量：
+  A. $HOME
+  B. $PWD
+  C. $PS1
+  D. $PS2
+
+11. 在vi中，如何从命令模式进行插入状态：
+  A. f键
+  B. p键
+  C. o键
+  D. n键
+
+12. 在vi中，不对文件做修改,强制退出，按：
+  A. x键
+  B. q!键
+  C. q键
+  D. esc键
+
+13. 在redhat系统中，普通用户的ID一般是：
+  A. >=100
+  B. >=500
+  C. >1000
+  D. >0
+
+14. 对于文件扩展名为tar.bz2的源代码发布的软件安装包解压和解压缩，正确的tar命令参数是：
+  A. tar -Zxvf 文件名
+  B. tar -xvf 文件名
+  C. tar -zxvf 文件名
+  D. tar -jxvf 文件名
+
+15. 对于文件扩展名为tar的源代码发布的软件安装包解压和解压缩，正确的tar命令参数是：
+  A. tar -Zxvf 文件名
+  B. tar -xvf 文件名
+  C. tar -zxvf 文件名
+  D. tar -jxvf 文件名
+
+16. 安装源代码发布软件包时，在使用./configure命令配置时，如果需要将软件安装到指定的目录可以使用参数：
+  A. --prefix
+  B. --directory
+  C. --temporary
+  D. --install
+
+17. ./configure命令在当前目录生成供编译安装使用文件是：
+  A. Install
+  B. Makefile
+  C. Configfile
+  D. Setup
+
+18. 以下说法正确的是：
+  A. Lilo不能安装在硬盘的超过1024扇区以外的地方
+  B. Grub只能引导一个Linux系统，不能引导Windows系统
+  C. Lilo在更改配置文件以后必须重新安装
+  D. Grub在更改配置文件以后必须重新安装Grub
+
+19. LILO使用的配置文件是：
+  A. /boot/lilo/lilo.conf
+  B. /var/lilo.conf
+  C. /etc/lilo.conf
+  D. /lilo/lilo.conf
+
+20. 要得到内核支持文件系统的列表，可以通过查看文件：
+  A. /proc/fd
+  B. /proc/devices
+  C. /proc/filesystems
+  D. /proc/modules
+
+21. 为给硬盘分区，在安装过程中选择分区工具时，哪个不能作为分区工具：
+  A. format
+  B. sfdisk
+  C. parted
+  D. fdisk
+
+22. 使用fdisk工具列出Linux支持的所有分区类型，可以使用命令：
+  A. p
+  B. l
+  C. y
+  D. u
+
+23. 每个硬盘主分区的个数最多可以有：
+  A. 1个
+  B. 3个
+  C. 4个
+  D. 无限制
+
+24. 关于"quotacheck"命令是：
+  A. 检查启用了配额的文件系统，并为每个文件系统建立一个当前磁盘用来的表
+  B. 创建启用了配额的文件系统，并为每个文件系统建立一个当前磁盘用来的表
+  C. 修改启用了配额的文件系统，并为每个文件系统建立一个当前磁盘用来的表
+  D. 删除启用了配额的文件系统，并为每个文件系统建立一个当前磁盘用来的表
+
+25. 文件系统根目录中，正在执行用户配额的配额数据库文件的名称是什么？
+  A. userquotas
+  B. .quota.u
+  C. .quota
+  D. aquota.user
+
+26. 从GNOME模式切换到KDE使用什么命令是：
+  A. switchdesk
+  B. switch
+  C. exchangedesk
+  D. desk
+
+
+二、多选选择题（共几题：7  每小题目满分：2）
+1. LINUX网络安装时：
+  A. 需要一块支持PXE芯片的网卡
+  B. 必须要有光盘安装介质
+  C. 必须采用FTP方式
+  D. 安装服务器上一定要有相应的映像文件
+
+2. 下面哪个语句可以用来测试/tmp目录：
+  A. (( -d /tmp ))
+  B. [ -d /tmp ]
+  C. test -d /tmp
+  D. { -d /tmp }
+
+3. 以下哪些是LINUX的文件类型：
+   A. 文本文件
+  B. 目录文件
+  C. 批处理文件
+  D. 设备文件
+
+4. 磁盘配额允许在以下哪两种磁盘管理方式下定义磁盘限制：
+  A. 基于文件节点上的磁盘管理方式
+  B. 基于分区节点上的磁盘管理方式
+  C. 基于磁盘存储块的磁盘管理方式
+  D. 基于卷节点上的磁盘管理方式
+
+5. 在一个终端中修改了环境变量配置文件.bash_profile后，要在此终端中让修改的文件立即生效，可用哪些方法：
+  A. cat .bash_profile
+  B.  . .bash_profile
+  C. more .bash_profile
+  D.  source .bash_profile
+
+6. 下面关于交换空间说法错误的是：
+  A. 交换分区是使用磁盘中的一个单独分区
+  B. 交换文件不需占用磁盘空间
+  C. 交换分区需要创建一个文件系统
+  D. 交换文件不能被删除
+
+7. X Window组成是：
+  A. 控制实际显示器和输入装置的程式Client
+  B. x-server
+  C. x-client
+  D. x-protocols
+
+试题3.
+理论考试（试卷满分：40各单元内小题是否乱序：否）
+一、单选选择题（共几题：26 每小题目满分：1）
+1. 激活交换空间的命令是：
+  A. mkfs
+  B. swapon
+  C. swapoff
+  D. fdisk
+
+2. 创建交换文件的命令是：
+  A. mkfs
+  B. dd
+  C. touch
+  D. vi
+
+3. /var主要适用于：
+  A. 各种服务的配置文件
+  B. 引导记录
+  C. 各种可执行文件
+  D. 日志记录文件
+
+4. 查看root用户的cron计时器设置的命令是：
+  A. crontab -u root -l
+  B. crontab -l
+  C. crontab -u root -e
+  D. crontab -u root -r
+
+5. 让普通用户以超级管理员的身份，执行文件的命令是：
+  A. chmod a+v
+  B. usermod a+v
+  C. chmod u+s
+  D. usermod a+s
+
+6. 关于"rm -rf dirname"命令，说法正确的是：
+  A. 删除dirname目录中的文件
+  B. 删除dirname目录，删除时给予提示
+  C. 只能删除空目录。
+  D. 递归强行删除dirname目录，及其目录下的所有文件
+
+7. 关于"more /var/log/maillog|grep aaa"命令，说法正确的是：
+  A. 通过管道，将显示mailllog的文件到aaa文件中
+  B. 通过管道，将maillog文件中含aaa的内容显示到标准输出中
+  C. 显示所有包含"aaa"字符的行
+  D. 显示所有maillog的内容给aaa的输出设备
+
+8. 以下哪个命令不可以关闭linux系统：
+  A. shutdown -h now
+  B. exit
+  C. poweroff
+  D. init 0
+
+9. 在csh中，变量名IGNOREEOF表示：
+  A. 执行之前显示每一条命令
+  B. 使文件名结束
+  C. 必须用logout注销，而不是^D
+  D. 禁止文件名扩展
+
+10. 以下哪种不是LINUX的SHELL类型：
+  A. bash
+  B. ksh
+  C. rsh
+  D. csh
+
+11. 在vim命令模式中，输入5G表示：
+  A. 将光标移到第5行的行尾
+  B. 将光标移到第5行的行首
+  C. 将光标移到本行的的第五个字符前
+  D. 将光标移到本行的的第五个字符后
+
+12. 在EMACS编辑器中，退出正确的是：
+  A. 退出按^w
+  B. 退出按^x+^w
+  C. 退出按^x+^c
+  D. 退出按^x+^v
+
+13. 临时注销一个用户，可以直接修改/etc/shadow文件，即在该用户的加密口令前加：
+  A. !!
+  B. #
+  C. %
+  D. $
+
+14. 在安装mysql-4.1.7-4.RHEL4.1.i386.rpm软件包时，需要忽略检查依赖关系，正确的rpm命令格式是：
+  A. rpm -ivh --force mysql-4.1.7-4.RHEL4.1.i386.rpm
+  B. rpm -ivh --ndps mysql-4.1.7-4.RHEL4.1.i386.rpm
+  C. rpm -ivh --nodep mysql-4.1.7-4.RHEL4.1.i386.rpm
+  D. rpm -ivh --nodeps mysql-4.1.7-4.RHEL4.1.i386.rpm
+
+15. 如果目前系统的运行平台是i386，则使用rpmbuild命令的--rebuild参数会将SRPM软件包生成的二进制RPM安装包保存在目录：
+  A. /usr/src/redhat/source/i386
+  B. /usr/src/redhat/i386
+  C. /usr/src/redhat/RPMS/i386
+  D. /usr/redhat/RPMS/i386
+
+16. GRUB对硬盘和分区计算的起始编号是：
+  A. 0
+  B. 1
+  C. 2
+  D. 3
+
+17. 对于文件扩展名为tar.gz的源代码发布的软件安装包解压和解压缩，正确的tar命令参数是：
+  A. tar Zxvf 文件名
+  B. tar xvf 文件名
+  C. tar zxvf 文件名
+  D. tar jxvf 文件名
+
+18. 如果忘记root口令可以采取下面那种方法得到密码：
+  A. boot提示符下，采用单用户方式进入系统，并删除/etc/passwd 文件
+  B. boot提示符下,采用单用户方式进入系统，并使用passwd命令更改root用户密码
+  C. 进入rescue模式，删除 /etc/shadow 文件
+  D. 进入rescue模式，修改root用户权限，并改变passwd文件
+
+19. 以下关于init进程描述错误的是：
+  A. init进程扮演终极父进程的角色
+  B. 失去了父进程的子进程就都会以init作为它们的父进程
+  C. init进程的主要任务是按照inittab文件所提供的信息创建进程
+  D. init进程的进程ID为1
+
+20. 每个硬盘主分区的个数最多可以有：
+  A. 1个
+  B. 3个
+  C. 4个
+  D. 无限制
+
+21. 关于Linux交换分区的作用，下列说法不正确的是：
+  A. 存放临时文件
+  B. 保存访问过的网页文件
+  C. 用磁盘空间模拟内存空间
+  D. 允许应用程序使用多于实际内存的存储容量
+
+22. ext2支持的文件名长度可达：
+  A. 255个字符
+  B. 256个字符
+  C. 128个字符
+  D. 127个字符
+
+23. 以下哪个不属于ext3的日志模式：
+  A. data=writeback
+  B. data=through
+  C. data=orderd
+  D. data=journal
+
+24. 关于"edquota –t"命令是：
+  A. 启用了组群的文件系统来分配配额
+  B. 启用了用户的文件系统来分配配额
+  C. 启用了root的文件系统来分配配额
+  D. 启用了普通用户的文件系统来分配配额
+
+25. 下列哪个命令用来启动特定文件系统上的配额？
+A. quotastart
+  B. startquota
+  C. aquota
+  D. quotaon
+
+26. 启动X-Window的命令是：
+  A. start
+  B. startx
+  C. begin
+  D. beginx
+
+
+
+二、多选选择题（共几题：7  每小题目满分：2）
+1. 关于"touch"命令,说法正确的是：
+  A. 生成一个空文件
+  B. 做简单的编辑文件
+  C. 修改文件的创建时间
+  D. 重命名文件名
+
+2. 下面用于输入输出重定向的符号是：
+  A. >>
+  B. >
+  C. |
+  D. <
+
+3. 下面说法正确的是：
+  A. bash的初始化文件称/etc/profile主要存放全局的设定
+  B. 每个使用bash的用户都有各自的.bash_profile文件在用户主目录中
+  C. /etc/bashrc主要存放对login登录的默认设定
+  D. /root/.bashrc对所有用户都会有效
+
+4. 为了临时禁止用户（ID500）交互式登录，可以采用如下方法：
+  A. usermod -e 00/00/00 ID500
+  B. rm -r /home/ID500
+  C. usermod -s /bin/false ID500
+  D. 将口令文件中用户名ID500的密码前加入!!
+
+5. linux支持的文件系统有：
+  A. ext2 文件系统
+  B. vfat 文件系统
+  C. reiserfs 文件系统
+  D. ext3文件系统
+
+6. Shell功能包括：
+  A. 变量的值的替换
+  B. 命令的替换
+  C. 自动补齐
+  D. I/O重定向和管道
+
+7. 在进行显卡配置时，用户经常要修改以下几个配置文件？
+  A. /etc/X11/xorg.conf
+  B. /etc/X11/XF86config
+  C. /etc/xorg.conf
+  D. /etc/XF86config
+
+试题4.
+理论考试（试卷满分：40各单元内小题是否乱序：否）
+一、单选选择题（共几题：26 每小题目满分：1）
+1. 删除交换空间之前必须关闭交换空间，关闭该使用哪个命令：
+  A. swapquit
+  B. swapon
+  C. swapoff
+  D. rm
+
+2. 查看交换空间的使用情况该使用哪个命令：
+  A. df
+  B. swapon
+  C. free
+  D. fdisk
+
+3. at命令使用错误的是：
+  A. at now + 5 minutes
+  B. at now + 3 days
+  C. at time
+  D. at 10:30pm
+
+4. 查看当前等待执行的任务的命令是：
+  A. at
+  B. atp
+  C. atq
+  D. atm
+
+5. 下面关于命令"mv"命令，说法错误的是：
+  A. mv命令可以重命名文件
+  B. mv命令可以移动文件
+  C. mv命令可以复制文件
+  D. mv命令可以删除文件
+
+6. 利用cat命令查看文本文件的内容时要对所有的输出行进行编号的命令是：
+  A. cat -n
+  B. cat -e
+  C. cat -t
+  D. cat -a
+
+7. 为了将当前目录下的归档文件myftp.tgz解压缩到/tmp目录下，可以使用以命令什么命令：
+  A. tar xvjf myftp.tgz -C /tmp
+  B. tar xvzf myftp.tgz -C /tmp
+  C. tar vzf myftp.tgz -X /tmp
+  D. tar xvzf myftp.tgz /tmp
+
+8. 关于"grep -v"命令，说法正确的是：
+  A. 只显示整行严格匹配的行
+  B. 只显示匹配行的数量
+  C. 只显示不包含匹配串的行
+  D. 指定检索使用的模式
+
+9. 下面有关shell的说法正确的是：
+  A. shell是linux核心程序
+  B. shell是操作员使用的程序
+  C. shell是用户与Linux 操作系统内核之间的接口
+  D. shell是Windows的命令行程序
+
+10. 在linux环境下通过下面那个命令得到当前使用shell的类型：
+  A. shell
+  B. echo $SHELL
+  C. echo $shell
+  D. disenv
+
+11. 在vim编辑器中，使用"1,$/aaa/bbb/g"命令,表示为：
+  A. 在整文中，在aaa后添加bbb
+  B. 在整文中，用bbb替换aaa
+  C. 从第一行，到当前行，在aaa后添加bbb
+  D. 从第一行，到当前行，用bbb替换aaa
+
+12. 在vim中，使用"5yy"表示：
+  A. 复制当前行及以下4行
+  B. 复制当前行下面的5行
+  C. 粘贴当前行及以下4行
+  D. 粘贴当前行下面的5行
+
+13. 新建一个用户blue后，需要设置密码为空，可使用以下哪个命令：
+  A. useradd -R "" blue
+  B. passwd -d blue
+  C. adduser -o "" blue
+  D. adduser -u "" blue
+
+14. 在rpm命令中，升级RPM包软件使用的参数是：
+  A. -i
+  B. -v
+  C. -h
+  D. -U
+
+15. 在rpm命令中，卸载RPM包软件使用的参数是：
+  A. -i
+  B. -v
+  C. -e
+  D. -U
+
+16. 需要了解gzip这个RPM软件包中都有哪些文件，正确的rpm命令格式是：
+  A. rpm -al gzip
+  B. rpm -ai gzip
+  C. rpm -ql gzip
+  D. rpm -qi gzip
+
+17. 要查询所有名称带有"zip"的RPM包，正确的rpm命令格式是：
+  A. rpm -qa|grep "zip"
+  B. rpm -al|grep "zip"
+  C. rpm -q "zip"
+  D. rpm -a "zip"
+
+18. 下面哪个文件是GRUB的配置文件：
+  A. /boot/grub/grub.conf
+  B. /boot/grub.conf
+  C. /etc/sysconfig/grub
+  D. /etc/grub/grub.conf
+
+19.在GRUB配置文件中，以哪个关键字开头的行定义了用户的可见菜单标签？
+  A. label
+  B. title 
+  C.  menuitem
+  D. choice
+
+20. 以下关于/proc文件系统描述错误的是：
+  A. /proc文件系统不占用磁盘空间，它们存在于工作内存中
+  B. 用户和应用程序可以通过/proc文件系统得到系统的信息
+  C. 用户和应用程序对/proc文件系统只有读取权限
+  D. /proc文件系统是动态从系统内核读出所需信息并提交的
+
+21. 使用fdisk工具建立分区默认的分区类型是：
+  A. Linux Native
+  B. Linux Swap
+  C. FAT16
+  D. FAT32
+
+22. 使用fdisk工具如果想退出但不保存结果，可以使用命令：
+  A. q
+  B. p
+  C. w
+  D. e
+
+23. 使用fdisk工具列出Linux支持的所有分区类型，可以使用命令:
+  A. p
+  B. l
+  C. y
+  D. u
+
+24. 管理员可以使用下列哪个命令来生成当前配额策略的完整列表？
+  A.  quota
+  B. quotastat
+  C. lsquota
+   D. repquota
+
+25. 使用下列哪个命令可以为特定的用户交互地设置配额策略？
+  A.  aquota
+  B. quotapol
+  C.quotacheck -p 
+   D.edquota
+
+26. KDE是UNIX操作系统下：
+  A. 桌面环境
+  B. 系统环境
+  C. 操作环境
+  D. 应用环境
+
+
+二、多选选择题（共几题：7  每小题目满分：2）
+1. 以下对于"scp"命令，说法错误的是：
+  A. 只能用于主机之间的数据拷贝
+  B. 只能在开启ssh服务的基础上工作
+  C. 拷贝时必须输入密码
+  D. 数据传输是通过加密通道来完成
+
+2. 以下哪些说法是正确的：
+  A. shell是一种编译语言
+  B. shell是一种命令解释语言
+  C. shell具有内建的命令集
+  D. shell可被其它程序调用
+
+3. cron有哪两种配置文件：
+  A. /etc/crontab，全局配置文件
+  B. crontab命令生成的配置文件，属于用户级
+  C. /etc/cron：全局配置文件
+  D. /etc/crontab，用户级配置文件
+
+4. Linux操作系统的/etc/passwd文件中包括的基本选项有：
+  A. 用户ID
+  B. 加密的密码值
+  C. 用户登录Shell
+  D. 用户登录目录
+
+5. 使用fdisk对硬盘分区进行管理时，下面的参数正确的是：
+  A. l参数，可以显示出linux所支持的分区类型
+  B. d参数，删除一个分区
+  C. n参数，增加一个分区
+  D. m参数，改变分区的类型
+
+6. 下面关于交换空间说法正确的是：
+  A. 能够一定程度上提高系统效率
+  B. 当内存不足时，活动的页将被交换到交换空间中
+  C. 当内存不足时，内存中不活动的页将被交换到交换空间中
+  D. 当需要时，交换空间中的内容会被再次读入内存
+
+7. X Window的两种工作模式主要是：
+  A. GNOME
+  B. KDE
+  C. TWM
+  D. TDM
+
+试题5.
+理论考试（试卷满分：40各单元内小题是否乱序：否）
+一、单选选择题（共几题：26 每小题目满分：1）
+1. 查看有多少个交换分区或交换文件在使用的方法：
+  A. cat /proc/swaps
+  B. swapon
+  C. swaps
+  D. df
+
+2. 交换文件的大小：
+  A. 一般不超过127M
+  B. 16M
+  C. 24M
+  D. 64M
+
+3. 删除at任务的命令是：
+  A. at
+  B. atrm
+  C. atq
+  D. atm
+
+4. root想修改自己的PATH变量，且每次开机都会生效，应修改哪个文件：
+  A. /etc/profile
+  B. /root/.bash_profile
+  C. /etc/bashrc
+  D. /gdlc/.bashrc
+
+5. 关于"tail -100 /var/log/maillog"命令，说法正确的是：
+  A. 显示maillog最后一百行的内容
+  B. 显示maillog最前一百行的内容
+  C. 显示maillog最后一百字节的内容
+  D. 显示maillog最前一百字节的内容
+
+6. 利用find命令查找当前目录下以.c的名称结尾的文件，并将结果输出到标准输出的命令是：
+  A. find . -name "?.c" -print
+  B. find . -name "#.c" -print
+  C. find . -name "!*.c" -print
+  D. find . -name "*.c" -print
+
+7. 在使用ln建立文件符号链接时，为了跨越不同的文件系统，需要使用：
+  A. 普通链接
+  B. 硬链接
+  C. 软链接
+  D. 特殊链接
+
+8. 关于"tar"命令，下列说法正确的是：
+  A. -x 参数，用于解压缩
+  B. -x 参数，用于解包
+  C. -c 参数，用于打包
+  D. -c 参数，用于解压缩
+
+9. 下面那种shell是目前大多数linux发行版缺省的shell :
+  A. ash
+  B. csh
+  C. ksh
+  D. bash
+
+10. 下面关于命令mv说法错误的是：
+  A. mv命令可以重命名文件
+  B. mv命令可以移动文件
+  C. mv命令可以复制文件
+  D. mv命令可以删除文件
+
+11. 在vim中，如何从命令模式切换到编辑状态：
+  A. f键
+  B. p键
+  C. o键
+  D. n键
+
+12. 在vim中，不对文件做修改,强制退出。可按以下哪个键：
+  A. :x键
+  B. :q!键
+  C. q键
+  D. esc键
+
+13. 所有用户登陆的缺省配置文件是：
+  A. /etc/.profile
+  B. /etc/login.defs
+  C. /etc/.login
+  D. /etc/.logout
+
+14. 以下哪项不属于Linux二进制发布软件包的特点：
+  A. 在安装时不需要用户重新编译
+  B. 不同的平台需要使用相应的二进制发布软件包进行安装
+  C. 二进制发布软件包缺乏灵活性
+  D. 可以对软件的源代码保密
+
+15. 以下哪项不属于RPM文件保存的信息：
+  A. 安装位置
+  B. 升级信息
+  C. 软件包的描述信息
+  D. 软件包之间的依赖关系
+
+16. 以下哪项不属于使用RPM包格式安装软件的优点：
+  A. RPM包软件能很好地解决各个软件构成错综复杂的依赖关系
+  B. RPM包软件要比需要编译的软件更容易安装和维护
+  C. RPM包软件能很好地解决软件升级的问题
+  D. RPM包软件可以根据具体要求删除或增加某些功能
+
+17. 在rpm命令中，安装新的RPM包软件使用的参数是：
+  A. -i
+  B. -v
+  C. -h
+  D. -e
+
+18. 用户安装GRUB的命令是什么？
+  A. grub
+  B. init-grub
+  C. grub-install
+  D. mkgrub
+
+19. 引导时，作为GRUB的阶段1执行的文件是哪一个？
+  A. /boot/grub/grub.conf
+  B. /boot/grub/stage1
+  C. /sbin/gstage1
+  D. /sbin/grub
+
+20. 不能够作为Linux 根分区的分区类型有：
+  A. ext3
+  B. reiserfs
+  C. ext2
+  D. ntfs
+
+21. 哪个不属于文件系统通常包括的功能：
+  A. 文件访问和控制
+  B. 并发文件控制
+  C. 差错恢复
+  D. 磁盘管理
+
+22. 以下哪些文件系统属于日志文件系统：
+  A. ext2
+  B. ntfs
+  C. ext3
+  D. nfs
+
+23. 与其它同类日志文件系统相比，ext3具备的独特优势是：
+  A. ext3 完全兼容ext2文件系统，能充分利用ext2 中已有的操作和应用
+  B. ext3有多种日志模式，它可以记录所有的文件数据和元数据，也可以只记录元数据
+  C. ext3用独立的日志文件跟踪磁盘内容的变化，同时它还使用了用事务处理的方式，提交或撤消文件系统的变化
+  D. ext3可以最大程度地保证文件系统的一致性
+
+24.在初始化/home分区的配额时，管理员运行quotacheck /home得到如下报错，quotacheck:Cannot get quotafile name for /dev/hda2，对于这个错误最合理的解释是：
+  A. 管理员指定的是挂载点而不是设备
+  B. 管理员没有使用合适的命令行选项来初始化数据库
+  C.数据库文件及其自动生成的备份已经存在
+  D. 管理员忘了定义配额文件的名称
+
+25. 管理员初始化/home分区的正确的命令行是：
+  A. quotacheck -o quota.user /dev/hda2
+  B. quotacheck -u --init /home
+  C. quotacheck -Ma
+  D. quotacheck -cu /home
+
+26. 关于"X Window System"是：
+  A. 视窗系统
+  B. 操作系统
+  C. 应用系统
+  D. 分布系统
+
+
+二、多选选择题（共几题：7  每小题目满分：2）
+1. 以下对查找命令，表述正确的是：
+  A. locate命令只能在指定的数据库文件中进行搜索，此数据库文件需要使用"updatedb"命令进行创建
+  B. which搜索当前用户PATH路径内下的文件
+  C. whereis搜索当前用户PATH路径内下的文件
+  D. find可根据时间参数来查找文件
+
+2. Shell功能包括：
+  A. 变量的值的替换
+  B. 命令的替换
+  C. 自动补齐
+  D. I/O重定向和管道
+
+3. rpm主要功能有那些：
+  A. 安装软件
+  B. 查询软件
+  C. 升级软件
+  D. 卸载软件
+
+4. 在Linux操作系统中，新建工作组的方法有：
+  A. groupadd
+  B. useradd
+  C. 在/etc/group文件中手工添加
+  D. 在/etc/passwd文件中手工添加
+
+5. 对cron的访问控制说法正确的是：
+  A. 默认情况下，所有用户都能访问cron
+  B. 若需要对cron进行访问控制，可以生成/etc/cron.allow与/etc/cron.deny文件
+  C. 存在/etc/cron.allow文件时，只有cron.allow文件中允许的用户才能访问cron
+  D. cron.allow和cron.deny同时存在时，只有cron.deny中的用户被拒绝
+
+6. 在"/etc/fstab"文件中，启用配额的参数是：
+   A. usrquota
+   B. grpquota
+  C. Rootquota
+  D. Userquota
+
+7. 关于"GNOME"说法正确的是：
+  A. 一个用户界面友好的桌面环境，能够使用户很容易地使用和配置他们的计算机
+  B. 包括一个面板(用来启动应用程序和显示状态)，一个桌面(存放数据和应用程序的地方)，一套标准的桌面工具和应用程序，和一套与其他人相互协同工作的协议集
+  C. 其他操作系统的用户在使用 GNOME不能提供的强大的图形驱动环境
+  D. 是一个操作命令
+
+

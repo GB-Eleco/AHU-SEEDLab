@@ -1,0 +1,15 @@
+
+#include <stdio.h>
+#include <string.h>
+
+int main(int argc, char **argv) 
+{
+	char buf[1021];
+
+	strncpy(buf, argv[1], sizeof(buf) - 1);
+	printf(buf);
+	while (1);
+}
+
+
+

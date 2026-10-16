@@ -1,0 +1,359 @@
+GDB Debugger Questions 
+
+This set of Linux / Unix questions and answers focuses on GDB. This is set 1.
+
+1. For debugging with GDB, the file ¡°sanfoundry¡± can be created with the command
+a) gcc -g -o sanfoundry sanfoundry.c
+b) gcc -g sanfoundry.c
+c) gdb sanfoundry
+d) none of the mentioned
+
+2. For debugging with GDB, the compiled program can be run by the command
+a) run
+b) execute
+c) ./<filename>
+d) none of the mentioned
+
+
+3. In GDB, breakpoints can be set by the command
+a) break
+b) b
+c) both break and b
+d) none of the mentioned
+
+
+4. GDB stands for
+a) GNU debugger
+b) General debugging breakpoint
+c) General debugger
+d) None of the mentioned
+
+
+5. GDB can be used for
+a) c language
+b) c++ language
+c) both c and c++ language
+d) none of the mentioned
+
+
+6. The command ¡°gdb sanfoundy¡±
+a) will start debugging for the file ¡°sanfoundry¡± if the file is compiled with -g option with GCC
+b) will create executable for debugging
+c) will provide all errors present in the file ¡°sanfoundry¡±
+d) none of the mentioned
+
+
+7. In debugging with GDB, break points can be set to
+a) any line
+b) any function
+c) both any line and function
+d) none of the mentioned
+
+
+8. In GDB debugging, we can proceed to the next breakpoint with command
+a) next
+b) continue
+c) both next and continue
+d) none of the mentioned
+
+
+9. At the time of debugging with GDB, if we just press ENTER
+a) GDB will repeat the same command you just gave it
+b) GDB will do nothing
+c) GDB will exit
+d) None of the mentioned
+
+
+10. To print the value of a variable while debugging with GDB, ______ command can be used.
+a) printf
+b) print
+c) show
+d) none of the mentioned
+
+This set of Linux / Unix questions and answers focuses on GDB. This is set 2.
+
+1. Which GDB command prints the value of a variable in hex.
+a) print/x
+b) print/h
+c) print/e
+d) none of the mentioned
+
+
+2. Which GDB command interrupts the program whenever the value of a variable is modified and prints the value old and new values of the variable?
+a) watch
+b) show
+c) trace
+d) none of the mentioned
+
+
+3. Which GDB command produces a stack trace of the function calls that lead to a segmentation fault?
+a) trace
+b) backtrace
+c) forwardtrace
+d) none of the mentioned
+
+
+4. The specific break point can be deleted by _____ command in GDB.
+a) delete
+b) del
+c) remove
+d) none of the mentioned
+
+
+5. The ¡°step¡± command of GDB
+a) executes the current line of the program
+b) stops the next statement to be executed
+c) executes the current line of the program & stops the next statement to be executed
+d) none of the mentioned
+
+
+6. Which GDB command reloads the debugging information?
+a) file
+b) reload
+c) debug
+d) none of the mentioned
+
+
+7. GDB can be used
+a) to find out the memory leakages
+b) to get the result of a particular expression in a program
+c) to find the reason of segementation fault
+d) all of the mentioned
+
+
+8. Which GDB command can be used to put a breakpoint at the beginning of the program?
+a) b main
+b) b start
+c) break
+d) none of the mentioned
+
+
+9. To put the breakpoint at the current line ____ command can be used?
+a) b
+b) break
+c) both b and break
+d) none of the mentioned
+
+
+10. We can list all the breakpoint in GDB by the command
+a) info break
+b) break all
+c) both info break and break all
+d) none of the mentioned
+
+
+This set of Linux / Unix questions and answers focuses on GDB. This is set 3.
+
+1. Which one of the following is not true about GDB?
+a) quit command is used to exit the GDB
+b) kill command is used to stop execution in GDB
+c) if the execution is stopped by kill command then it can not be started again
+d) none of the mentioned
+
+
+2. While debugging with GDB
+a) variables can be print
+b) variables can be modify
+c) variables can be print & modify
+d) none of the mentioned
+
+
+3. GDB command ¡°frame¡± is used
+a) to change the stack frames
+b) to check the stack frames only
+c) it is not a valid command
+d) none of the mentioned
+
+
+4. The GDB command ¡°info local¡±
+a) displays the list of local variables
+b) value of local values for the current stack frame
+c) displays the list of local variables & value of local values for the current stack frame
+d) none of the mentioned
+
+
+5. If we have multiple source files, then during the debugging with GDB
+a) breakpoint can not be set
+b) break point can be set by ¡°break¡± command with a filename
+c) break point can be set only to makefile
+d) none of the mentioned
+
+
+6. What is temporary breakpoint?
+a) it stops the program once
+b) it is removed after one execution of the program
+c) it stops the program once & removes after one execution of the program
+d) none of the mentioned
+
+
+7. In GDB breakpoints can be skipped by the command
+a) ignore
+b) reject
+c) skip
+d) none of the mentioned
+
+
+8. Which GDB command is used to examine the memory?
+a) x
+b) y
+c) z
+d) none of the mentioned
+
+
+9. Which one of the following is not true about the GDB?
+a) info register is used to see that what is in the processor registers
+b) processor registers can not be accessed by GDB
+c) first 32 bits of the variable can not be examined
+d) none of the mentioned
+
+
+10. Assemble code of the program can be displayed in GDB by the command
+a) disassemble
+b) assemble
+c) assembly
+d) none of the mentioned
+
+
+This set of Linux / Unix questions and answers focuses on GDB. This is set 4.
+
+1. The execution of the program in GDB can be affected by
+a) arguments
+b) working directory
+c) environment
+d) all of the mentioned
+
+
+2. While debugging with GDB, arguments to the program can be specified by the arguments of _____ command.
+a) run
+b) gdb
+c) make
+d) none of the mentioned
+
+
+3. Inside GDB, a program may stop because of
+a) a signal
+b) a breakpoint
+c) step command
+d) all of the mentioned
+
+
+4. Which one of the following is a special breakpoint that stops the program when the value of an expression changes in GDB?
+a) watchpoint
+b) catchpoint
+c) getpoint
+d) none of the mentioned
+
+
+5. With the list command, by default GDB prints the ____ source lines.
+a) 20
+b) 10
+c) all
+d) none of the mentioned
+
+
+6. In GDB which one of the following allows us to specify a variable in terms of the file or function where it is defined?
+a) ::
+b) @
+b) $
+d) none of the mentioned
+
+
+7. If we want to print the value of a variable in hexadecimal, we have to use ¡°print¡± command with the option ___ in GDB.
+a) x
+b) h
+c) hex
+d) none of the mentioned
+
+
+8. Which one of the following variables is used within GDB to hold on to a value and refer to it later?
+a) convenience variables
+b) environment variables
+c) temporary variables
+d) none of the mentioned
+
+
+9. In GDB, we can refer to machine register contents, in expressions, as variables with names starting with
+a) $
+b) #
+c) !
+d) none of the mentioned
+
+
+10. In GDB hardware-dependent information about the floating point unit can be displayed by the command
+a) info float
+b) display float
+c) show float
+d) none of the mentioned
+
+
+This set of Linux / Unix questions and answers focuses on GDB. This is set 5.
+
+1. In GDB, a tracepoint can be set by the command
+a) trace
+b) set
+c) break trace
+d) none of the mentioned
+
+
+2. Which one of the following command saves the command history of GDB in a file?
+a) history
+b) set history
+c) set history save on
+d) none of the mentioned
+
+
+3. The command ¡°show commands¡± of GDB
+a) displays the last 10 commands in the command history
+b) displays all commands of the command history
+c) displays all the commands available in GDB
+d) none of the mentioned
+
+
+4. The GDB command ¡°show output-radix¡±
+a) sets the default base for numeric display
+b) displays the current default base for numeric display
+c) sets the default base
+d) none of the mentioned
+
+
+5. The user can define a command for GDB with the command
+a) define
+b) command
+c) assign
+d) none of the mentioned
+
+
+6. By default the GDB automatically executes the command from its
+a) init files
+b) start files
+c) begin files
+d) none of the mentioned
+
+
+7. The GDB text user interface uses the ____ library to show the source file.
+a) Curses
+b) YUI
+c) JUI
+d) None of the mentioned
+
+
+8. Which one of the following GDB command allows to move from one stack frame to another without printing the frame?
+a) select-frame
+b) frame
+c) frame move
+d) none of the mentioned
+
+
+9. Which one of the following GDB command deletes any breakpoint at the next instruction to be executed in the selected stack frame?
+a) clear
+b) delete
+c) disable
+d) none of the mentioned
+
+
+10. The result of an expression can be assigned to an environement variable with the command
+a) assign
+b) set
+c) env
+d) none of the mentioned
+

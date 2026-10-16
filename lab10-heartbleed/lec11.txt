@@ -1,0 +1,19 @@
+1、名词解释：ARP cache poisoning，ICMP Redirect Attack，SYN Flooding Attack，TCP Session Hijacking。如果想监听局域网内另外一台机器，一般先要进行什么步骤？
+
+2、阅读下面这篇文章并且了解Netwox/Netwag的基本操作：
+Netwox/Netwag Troubleshooting guide 
+http://www.cis.syr.edu/~wedu/seed/Documentation/Misc/netwox.pdf
+
+3、解释linux用root执行下面两条命令
+sysctl -q net.ipv4.tcp_max_syn_backlog
+sysctl -w net.ipv4.tcp_syncookies=0
+
+的含义和用途。
+
+4、考虑Linux环境下如何实现精确计算一个进程从开始到结束所运行的时间，越精确越好，搜索下相关资料。
+
+5、认真观看
+P2 Cross-Site Request Forgery Attack Lecture
+https://www.bilibili.com/video/BV1a441117kb
+大概说下视频的内容。
+

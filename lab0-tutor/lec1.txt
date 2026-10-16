@@ -1,0 +1,26 @@
+﻿1.写出一行linux命令列出根目录下所有suid程序。
+描述linux下setuid/seteuid/setreuid/getenv这几个函数的功能和差异。
+
+
+2.有些入侵者入侵系统后，喜欢隐藏一个suid root shell文件以便下次再进入。对于这种后门应该如何进行检测？
+
+
+3.（选做）普通用户Gdb调试一个root所有的suid程序，该程序在被gdb调试执行时是否依然拥有文件owner也就是root权限？解释原因。
+
+
+4.解释Linux环境变量PATH的作用，如何显示和修改这个环境变量？
+解释linux下用root执行下面这条命令
+chmod 4755 file
+的含义和用途。
+
+5.描述system、execve、fork这几个函数的功能和差异。
+
+6.（选做）/etc/passwd有一行是instr:s5r0nnT/qJfaM:1000:100:instr:/home/instr:/bin/sh，请问instr用户的密码是什么？hint：%d。
+
+7、认真观看
+P5 Environment Variable and Security Lecture
+
+Software Security - Kevin Du - SEED Project - Syracuse University
+https://www.bilibili.com/video/BV1v4411S7mv
+大概说下视频的内容。
+
