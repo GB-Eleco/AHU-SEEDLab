@@ -1,0 +1,21 @@
+1、（一定要看）阅读 
+https://blog.csdn.net/fallingstarno1/article/details/7100924
+https://www.cnblogs.com/daihuiquan/archive/2013/02/14/2911285.html
+https://www.freebuf.com/column/157183.html
+
+2、（一定要看）阅读 
+http://www.vuln.cn/7115
+http://www.vuln.cn/7117
+http://www.vuln.cn/7116
+http://www.vuln.cn/7118
+
+3、浏览 JVM指令助记符
+https://bbs.pediy.com/thread-15286.htm
+
+4、阅读
+https://www.52pojie.cn/thread-613029-1-1.html
+
+5、The Garden of sinners.jpg
+hint：shift+6
+
+

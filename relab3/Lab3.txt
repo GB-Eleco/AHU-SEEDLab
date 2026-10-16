@@ -1,0 +1,21 @@
+1. Java Bytecode Reversing and Patching Exercise
+Description of the Exercise:
+
+Imagine that you have just implemented a Java version of a console application called “Password Vault” that helps computer users create and manage their passwords in a secure and convenient way.  Before releasing a limited trial version of the application on your company’s Web site, you would like to understand how difficult it would be for a reverse engineer to circumvent a limitation in the trial version that exists to encourage purchases of the full version; the trial version of the application limits the number of password records a user may create to five. The Java version of the Password Vault application was developed to provide a non-trivial application for reversing exercises without the myriad of legal concerns involved with reverse engineering software owned by others. The Java version of the Password Vault application employs 128-bit AES encryption, using Sun’s Java Cryptography Extensions (JCE), to securely store passwords for multiple users—each in separate, encrypted XML files.
+
+Software for the Exercise:
+
+Password Vault Java Windows installer
+FrontEnd Plus (java bytecode decompiler)
+Jad (java bytecode decompiler) (if you prefer to work at the command-line)
+
+2. 201807
+
+3. MTC3 Brute-Force-Attack on Triple-DES with Reduced Key Space
+https://mysterytwister.org/challenges/level-2/brute-force-attack-on-triple-des-with-reduced-key-space
+
+4. 阅读
+http://www.cnblogs.com/LittleHann/p/3374206.html
+
+5. （选做）查看JVM.zip里面的readme，运行class，提示YES的时候获得flag。
+

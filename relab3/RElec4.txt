@@ -1,0 +1,57 @@
+
+1、阅读 PE文件格式全接触
+https://bbs.pediy.com/thread-22892.htm
+
+2、阅读 从reflector实现看.net的混淆与反混淆技术
+https://bbs.pediy.com/thread-37217.htm
+
+3、（选做）
+What does the following code do? 
+
+csc .NET compiler (MSVS 2010), ildasm output
+
+  .method public hidebysig static uint8  f(uint8 a) cil managed
+  {
+    // Code size       36 (0x24)
+    .maxstack  2
+    .locals init (uint8 V_0)
+    IL_0000:  nop
+    IL_0001:  ldarg.0
+    IL_0002:  conv.u8
+    IL_0003:  ldc.i8     0x202020202
+    IL_000c:  mul
+    IL_000d:  ldc.i8     0x10884422010
+    IL_0016:  and
+    IL_0017:  ldc.i4     0x3ff
+    IL_001c:  conv.i8
+    IL_001d:  rem
+    IL_001e:  conv.u1
+    IL_001f:  stloc.0
+    IL_0020:  br.s       IL_0022
+
+    IL_0022:  ldloc.0
+    IL_0023:  ret
+  } // end of method e25::f
+
+一样的代码，只不过换成了Java语言
+Java 1.8 compiler:
+
+  public static byte f(byte);
+    descriptor: (B)B
+    flags: ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=4, locals=1, args_size=1
+         0: iload_0
+         1: i2l
+         2: ldc2_w        #2                  // long 8623620610l
+         5: lmul
+         6: ldc2_w        #4                  // long 1136090292240l
+         9: land
+        10: ldc2_w        #6                  // long 1023l
+        13: lrem
+        14: l2i
+        15: i2b
+        16: ireturn
+
+4、root:$1$A4eaIENM$/qKxNu3QkmN8Vf3EHobUs1:15933:0:99999:7:::
+hint：密码长度不超过6

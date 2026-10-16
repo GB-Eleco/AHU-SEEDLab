@@ -1,0 +1,67 @@
+
+1. 阅读
+https://en.wikipedia.org/wiki/X86_calling_conventions
+然后回答2个问题：
+What does this code do?
+
+The function has 4 arguments and it is compiled by GCC for Linux x64 ABI (i.e., arguments are passed in registers).
+
+
+<f>:
+   0:                   mov    r8,rdi
+   3:                   push   rbx
+   4:                   mov    rdi,rsi
+   7:                   mov    rbx,rdx
+   a:                   mov    rsi,r8
+   d:                   xor    rdx,rdx
+
+begin:
+  10:                   lods   rax,QWORD PTR ds:[rsi]
+  12:                   div    rbx
+  15:                   stos   QWORD PTR es:[rdi],rax
+  17:                   loop   begin
+  19:                   pop    rbx
+  1a:                   mov    rax,rdx
+  1d:                   ret
+
+What does this code do? 
+
+Non-optimizing GCC 4.8.2:
+
+
+<f>:
+   0:             push   rbp
+   1:             mov    rbp,rsp
+   4:             mov    QWORD PTR [rbp-0x8],rdi
+   8:             mov    QWORD PTR [rbp-0x10],rsi
+   c:             mov    rax,QWORD PTR [rbp-0x8]
+  10:             movzx  eax,BYTE PTR [rax]
+  13:             movsx  dx,al
+  17:             mov    rax,QWORD PTR [rbp-0x10]
+  1b:             mov    WORD PTR [rax],dx
+  1e:             mov    rax,QWORD PTR [rbp-0x10]
+  22:             movzx  eax,WORD PTR [rax]
+  25:             test   ax,ax
+  28:             jne    2c 
+  2a:             jmp    38 
+  2c:             add    QWORD PTR [rbp-0x8],0x1
+  31:             add    QWORD PTR [rbp-0x10],0x2
+  36:             jmp    c 
+  38:             pop    rbp
+  39:             ret
+
+2. 阅读 LINUX的crackme的逆向小记
+https://bbs.pediy.com/thread-11315.htm
+
+3. 阅读
+https://blog.csdn.net/ir0nf1st/article/details/67799899
+https://www.cnblogs.com/LittleHann/p/3374206.html
+
+4. (2选1，原理一样的)MTC3 Broadcasting and low exponent — RSA-Attack
+https://mysterytwister.org/challenges/level-2/broadcasting-and-low-exponent--rsa-attack
+Alice's Birthday Party (Part 2)
+https://mysterytwister.org/challenges/level-2/alices-birthday-party-part-2
+
+hint：
+中国剩余定理 
+https://www.di-mgt.com.au/bigdigits.html

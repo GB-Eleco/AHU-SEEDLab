@@ -1,0 +1,35 @@
+1、（一定要看）阅读Python Tutorial。
+会大致看懂基本语法能完成下个任务就可以了，不要求学会这门语言
+https://docs.python.org/3/tutorial/
+
+2、搜索Base64算法资料，详细解释该算法。用Python实现它，把自己的学号（字母大写）
+用Base64编码输出。并且把上面的源代码文件编译成pyc文件。（不要抄袭）
+
+3、找班上学号和你相邻的一位同学要一下上面的pyc文件（不是源代码文件），然后搜索相关
+反编译工具把pyc反编译成Python源代码，最好能多找几种工具或者途径达到反编译的目的。
+
+4、去https://mysterytwister.org/用各自组长的学号注册一个账号（字母大写），
+注册的时候有个Captcha可能要...才能显示，账号密码记住以后课堂要用到。
+完成关卡Cracking SHA1-Hashed Passwords
+https://mysterytwister.org/challenges/level-2/cracking-sha1-hashed-passwords
+
+5、从前有一个熊孩子入侵了一个网站的数据库，找到了管理员密码，手一抖在数据库中修改了
+一下，现在的密码变成了 4B58475789E60DBF1A28GD638B556A938134644C8。
+那个熊孩子其实就是我！肿么办求解原始密码！在线等，挺急的。。
+hint：密码长度为5
+
+6、（选做）阅读
+Python Opcode Obfuscation: A Powerful Anti-Analysis Technique
+https://www.0ffset.net/development/malware-development/obfuscating-python-opcodes/
+
+Simple replacement of opcode in pyc
+https://medium.com/@foretellor/simple-replacement-of-opcode-in-pyc-1097349e1ec1
+
+7、观看 某马拉松大学校内 CTF 赛前培训--逆向工程课
+https://www.bilibili.com/video/BV1xs411x7op
+写一下观后感，说下视频大概介绍了哪些内容。
+
+
+
+
+

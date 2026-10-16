@@ -1,0 +1,76 @@
+1. 阅读
+https://blog.csdn.net/cnhk1225/article/details/53568996
+然后回答问题：
+What does this code do?
+
+Optimizing csc .NET compiler from MSVS 2015 (/o switch), ildasm output:
+
+
+  .method public hidebysig static bool  f(char a) cil managed
+  {
+    // Code size       26 (0x1a)
+    .maxstack  8
+    IL_0000:  ldarg.0
+    IL_0001:  ldc.i4.s   97
+    IL_0003:  blt.s      IL_000c
+
+    IL_0005:  ldarg.0
+    IL_0006:  ldc.i4.s   122
+    IL_0008:  bgt.s      IL_000c
+
+    IL_000a:  ldc.i4.1
+    IL_000b:  ret
+
+    IL_000c:  ldarg.0
+    IL_000d:  ldc.i4.s   65
+    IL_000f:  blt.s      IL_0018
+
+    IL_0011:  ldarg.0
+    IL_0012:  ldc.i4.s   90
+    IL_0014:  bgt.s      IL_0018
+
+    IL_0016:  ldc.i4.1
+    IL_0017:  ret
+
+    IL_0018:  ldc.i4.0
+    IL_0019:  ret
+  } // end of method some_class::f
+
+一样的代码，只不过换成了Java语言
+Java 1.8 compiler:
+
+
+  public boolean f(char);
+    descriptor: (C)Z
+    flags: ACC_PUBLIC
+    Code:
+      stack=2, locals=2, args_size=2
+         0: iload_1
+         1: bipush        97
+         3: if_icmplt     14
+         6: iload_1
+         7: bipush        122
+         9: if_icmpgt     14
+        12: iconst_1
+        13: ireturn
+        14: iload_1
+        15: bipush        65
+        17: if_icmplt     28
+        20: iload_1
+        21: bipush        90
+        23: if_icmpgt     28
+        26: iconst_1
+        27: ireturn
+        28: iconst_0
+        29: ireturn
+
+2. 2017bath这张图片有一些文字片段，可能简单加密了，是某人说的，此人的姓名是什么？
+hint：hex editor
+
+3. 运行CrackMe1.exe，提示 "嗯，对了" 代表成功。首先修改exe使得出现成功提示，其次不修改exe输入正确的密码达到成功的目的。
+hint:https://blog.csdn.net/Nagi_Way/article/details/68961121
+
+4. （选做）修改CrackMe1.exe使得：只有输入你的学号才能出现成功提示。并且把“大家好...net”这段话全部换成自己自定义的英文。
+
+5. 运行CrackMe1903，提示 "Congratulations" 代表成功。
+

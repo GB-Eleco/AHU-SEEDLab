@@ -1,0 +1,24 @@
+
+1. 运行CraMe1.exe，提示 "u r right!" 代表成功。首先修改exe使得出现成功提示，其次不修改exe输入正确的密码达到成功的目的。
+
+
+2. 
+Exe: super_mega_protection.exe
+Key file: sample.key
+This is a software copy protection imitation, which uses a key file. The key file contain a user (or customer) name and a serial number.
+
+There are two tasks:
+
+(Easy) with the help of any debugger, force the program to accept a changed key file.
+
+(Medium) your goal is to modify the user name to another, without patching the program.（user name改成你的学号）
+
+3.（选做）
+Random.zip，解压后运行exe
+获得flag
+
+
+4.（选做）
+Reverseme1.exe
+hint：Import Address Table
+

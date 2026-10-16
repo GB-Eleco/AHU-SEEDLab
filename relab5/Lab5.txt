@@ -1,0 +1,32 @@
+
+1. Yet another crackme (or rather keygenme).
+
+Executables:
+
+Linux x64 
+Windows x64 
+It is just to be run with name and serial number as command line arguments. Valid ones are:
+
+
+2Z7A7-EK270-TMHR4-BHC71-CEB52-HELL0-HELL0-EONP9
+2Z7A7-6I7R9-MZGO9-FDQJ3-JN0Q6-HELL0-HELL0-72KJ9
+
+The first serial number has E feature turned off, the second has E feature turned on.
+
+There are two tasks:
+
+Easy: by patching, turn on/off all 5 features. 
+Medium: generate a serial number with arbitrary features turned on/off. 
+
+Good luck!
+
+hint:
+https://down.52pojie.cn/Tools/Debuggers/x64dbg_2018-04-05.zip
+https://stackoverflow.com/questions/5475790/how-to-disassemble-the-main-function-of-a-stripped-application
+
+2. CTF
+x6412.exe
+
+3. （选做）
+CrackMe2022
+提示success的时候获得flag。
