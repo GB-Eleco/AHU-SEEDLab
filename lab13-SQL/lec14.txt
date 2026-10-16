@@ -1,0 +1,33 @@
+1、用IE访问某些网站的时候，输入javascript:alert(document.cookie)会有什么反应，
+解释原因。
+
+2、阅读下面两篇文章或者阅读一本书<<JavaScript DOM编程艺术>>：
+Javascript Tutorial 
+https://www.evl.uic.edu/luc/bvis546/Essential_Javascript_--_A_Javascript_Tutorial.pdf
+XMLHttpRequest 
+http://www.w3school.com.cn/ajax/
+http://www.hunlock.com/blogs/AJAX_for_n00bs
+
+3、了解FireFox的两个插件LiveHttpHeaders和Firebug的基本使用方法。
+
+4、阅读下面这篇文章：
+跨站脚本攻击实例解析
+http://bbs.pediy.com/showthread.php?t=124209
+
+5、阅读下面这几篇文章：
+永久改变互联网的MySpace蠕虫
+https://segmentfault.com/a/1190000039654901
+DOM Based Cross Site Scripting or XSS of the Third Kind
+http://www.webappsec.org/projects/articles/071105.html 
+
+XSS (Cross Site Scripting) Cheat Sheet Esp: for filter evasion
+http://80x86.io/post/xsscrosssitescriptingcheatsheetespforfilterevasion
+
+利用QQ邮箱漏洞进行钓鱼事件溯源
+https://www.freebuf.com/news/85586.html
+
+6、XSS漏洞的触发条件有哪些？应该如何防范？
+
+7、认真观看，P3 Cross-Site Scripting Attack Lecture
+https://www.bilibili.com/video/BV1a441117kb
+大概说下视频的内容。

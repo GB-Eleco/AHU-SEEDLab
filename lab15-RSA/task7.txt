@@ -1,0 +1,17 @@
+secp256k1 
+n = 0xfffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364141
+
+ECDSA
+
+r = 0x9ac20335eb38768d2052be1dbbc3c8f6178407458e51e6b4ad22f1d91758895b
+s2 = 0x2da94e7cb83e17d307d46c80df4f3315b17af13c4a04ef352495f1442562a290
+z2 = 0x68fbde1dd7e06f4e88ae63a50f8ee07eff41c4b9586cbef1235b83281ab145d
+s1 = 0x43273c2390b15bbe7e4d38559b1d4e6c0d63aad2c586652ec423d851df065271
+z1 = 0x15b14bdc6f69058bfa8dcdc0e8bcd1fc87f4303804f200bfa6aadf627a8d5f6
+
+求私钥private key
+
+Not your keys, not your coin
+ECDSA签名算法允许一个交易有两个有效的签名（r, s）和（r, -s mod N），其中N是椭圆曲线的固定参数。
+
+https://blockchair.com/bitcoin/address/14tVK2JhEPsZEL7yYzMNXDYQ6dG3FnzzEY

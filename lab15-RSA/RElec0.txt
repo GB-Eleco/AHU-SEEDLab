@@ -1,0 +1,18 @@
+逆向工程（实践）第0个lab预习作业
+
+
+1、解释每一条汇编语言的含义，这几条汇编合在一起的作用是什么？
+<<恶意代码分析实战>> 那本书有一章是讲汇编的，可以看看。
+xor edx,edx
+mov eax, 51EB851Eh 
+imul ecx
+shr edx, 5
+mov eax, edx
+
+2、名词解释 __cdecl __stdcall __thiscall __vectorcall __fastcall __clrcall
+每种调用约定最好能用汇编代码片段举例。
+
+3、（选做）https://mysterytwister.org/challenges/level-1/enigma-messages
+
+软件下载：https://www.cryptool.org/en/ct1/downloads
+
